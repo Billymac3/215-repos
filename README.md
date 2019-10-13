@@ -3,3 +3,7 @@
 ## This is the home folder for all of my projects
 
 I will make changes to this readme if i do a lot of stuff
+
+## link for homework 2: travelfy-hero,
+
+# https://billymac3.github.io/215-repos/Travelfy-hero/index.html
