@@ -1,0 +1,180 @@
+.booking-form-container {
+  width: 818px;
+  margin: auto;
+  margin-bottom: 600px;
+  h1 {
+    text-transform: none;
+    width: 100%;
+  }
+  .bf-header {
+    width: 818px;
+  }
+
+  input {
+    height: 58px;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: $white;
+    border: 2px solid rgba($blue, 0.5);
+    // margin-bottom: 20px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  select {
+    /* reset */
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+
+    height: 58px;
+    width: 103px;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: $white;
+    border: 2px solid rgba($blue, 0.5);
+    background-image: url("../images/down-arrow.svg");
+    background-position: 60px 12px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .short-answer-wrapper {
+    position: relative;
+    // margin-bottom: 90px;
+
+    .short-answer-left {
+      width: 344px;
+      position: absolute;
+      left: 0;
+    }
+
+    .short-answer-right {
+      width: 453px;
+      position: absolute;
+      right: 0;
+    }
+    .short-answer-left-2 {
+      width: 344px;
+      position: absolute;
+      left: 0;
+      top: 75px;
+    }
+
+    .short-answer-right-2 {
+      width: 453px;
+      position: absolute;
+      right: 0;
+      top: 75px;
+    }
+  }
+
+  .numerical-answer-wrapper {
+    position: relative;
+    margin-bottom: 290px;
+
+    .checkin-container {
+      margin-top: 0;
+      position: absolute;
+      top: 150px;
+      width: 100%;
+      height: 58px;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 20px;
+        position: absolute;
+        right: 20px;
+      }
+
+      .input-title {
+      }
+      .check-in {
+        position: absolute;
+        right: 0;
+        width: 707px;
+      }
+    }
+
+    .checkout-container {
+      margin-top: 0;
+      position: absolute;
+      top: 225px;
+      width: 100%;
+      height: 58px;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 20px;
+        position: absolute;
+        right: 20px;
+      }
+
+      .input-title {
+      }
+      .check-in {
+        position: absolute;
+        right: 0;
+        width: 707px;
+      }
+    }
+
+    .dropdown-container {
+      margin-top: 0;
+      position: absolute;
+      top: 300px;
+      width: 100%;
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .input-title {
+      }
+      .adult-dropdown {
+      }
+    }
+
+    .message-container {
+      position: relative;
+
+      top: 375px;
+      display: flex;
+      margin-bottom: 100px;
+
+      .message {
+        width: 100%;
+        height: 192px;
+      }
+    }
+  }
+  .round-button {
+    width: 100%;
+    height: 60px;
+    background-color: $blue;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    // padding: 15px 17px;
+    // padding: 15px 100%;
+    border-radius: 25px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 600px;
+    margin: auto;
+    align-items: center;
+  }
+}
