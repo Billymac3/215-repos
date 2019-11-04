@@ -4,6 +4,12 @@
 
 I will make changes to this readme if i do a lot of stuff
 
+## link for homework 3: travelfly home page,
+
+# https://billymac3.github.io/215-repos/Homework3/index.html
+
 ## link for homework 2: travelfy-hero,
 
 # https://billymac3.github.io/215-repos/Travelfy-hero/index.html
+
+
