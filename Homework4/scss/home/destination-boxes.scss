@@ -1,0 +1,97 @@
+.destinations-container {
+  width: 818px;
+  height: 304px;
+  margin: auto;
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+
+  .destinations1 {
+    width: 236px;
+    height: 304px;
+    background-image: $israelTour;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .destinations2 {
+    width: 236px;
+    height: 304px;
+    background-image: $usaTour;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .destinations3 {
+    width: 236px;
+    height: 304px;
+    background-image: $australiaTour;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .desText {
+    width: 192px;
+    color: $white;
+    margin: auto;
+    margin-top: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      margin-bottom: 0;
+    }
+    h3 {
+      text-transform: none;
+      margin-bottom: 60px;
+    }
+    .round-button {
+      //   width: 133px;
+      //   height: 40px;
+      background-color: $blue;
+      text-decoration: none;
+      color: white;
+      padding: 15px 17px;
+      border-radius: 25px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .destinations-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    .destinations1 {
+      width: 100%;
+      height: 304px;
+      margin-bottom: 40px;
+    }
+    .destinations2 {
+      width: 100%;
+      height: 304px;
+      margin-bottom: 40px;
+    }
+    .destinations3 {
+      width: 100%;
+      height: 304px;
+      margin-bottom: 40px;
+    }
+  }
+}
