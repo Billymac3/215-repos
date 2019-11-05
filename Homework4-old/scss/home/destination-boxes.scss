@@ -1,6 +1,6 @@
 .destinations-container {
-  max-width: 818px;
-  min-height: 304px;
+  width: 818px;
+  height: 304px;
   margin: auto;
   margin-top: -40px;
   display: flex;
@@ -48,7 +48,6 @@
 
     h1 {
       margin-bottom: 0;
-      font-size: 40px;
     }
     h3 {
       text-transform: none;
@@ -67,7 +66,7 @@
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 768px) {
   .destinations-container {
     width: 80%;
     height: 100%;
