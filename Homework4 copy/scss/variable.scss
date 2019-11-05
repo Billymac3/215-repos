@@ -1,0 +1,20 @@
+//site colors
+$white: #fff;
+$blue: #79addc;
+$black: #000;
+
+// fonts
+$amatic: "Amatic SC", serif;
+$roboto: "Roboto", sans-serif;
+$lato: "Lato", sans-serif;
+
+// images
+// home page tour
+$israelTour: linear-gradient(to right, rgba($black, 0.5), rgba($black, 0.5)),
+  url("../images/tour/tour-01.jpg");
+
+$usaTour: linear-gradient(to right, rgba($black, 0.5), rgba($black, 0.5)),
+  url("../images/tour/tour-02.jpg");
+
+$australiaTour: linear-gradient(to right, rgba($black, 0.5), rgba($black, 0.5)),
+  url("../images/tour/tour-03.jpg");

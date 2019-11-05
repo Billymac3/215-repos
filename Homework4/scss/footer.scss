@@ -4,12 +4,14 @@ footer {
   height: 100px;
 
   .footer-logo {
+    // margin-left: 50px;
   }
 
   .footer-contents {
-    width: 980px;
+    width: 100%;
+    // min-width: 80%;
     height: 100%;
-    margin: auto;
+    justify-content: space-around;
     display: flex;
     align-items: center;
   }
@@ -18,13 +20,13 @@ footer {
     color: $white;
     font-size: 12px;
     text-align: center;
-    margin: auto;
-    align-items: center;
+    // margin: auto;
   }
 
   .social-wrapper {
     width: 115px;
     height: 25px;
+    // margin-right: 50px;
 
     .social-icons {
       color: $white;
@@ -35,40 +37,38 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 1000px) {
   footer {
     width: 100%;
     background-color: $blue;
     height: 100px;
+    display: flex;
+    align-items: center;
 
-    .footer-logo {
-    }
+    // .footer-logo {
+    // }
 
-    .footer-contents {
-      width: 80%;
-      height: 100%;
-      margin: auto;
-      display: flex;
-      align-items: center;
-    }
+    // .footer-contents {
+    //   // width: 80%;
+    //   height: 100%;
+    //   // margin: auto;
+    // }
 
     .footer-text {
       color: $white;
       font-size: 12px;
       text-align: center;
-      margin: auto;
-      align-items: center;
     }
 
     .social-wrapper {
       width: 115px;
       height: 25px;
+      display: flex;
+      justify-content: space-between;
 
       .social-icons {
         color: $white;
         font-size: 25px;
-        display: flex;
-        justify-content: space-between;
       }
     }
   }

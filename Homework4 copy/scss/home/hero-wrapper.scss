@@ -1,0 +1,114 @@
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: $black;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to right,
+        rgba($black, 0.5),
+        rgba($black, 0.5)
+      ),
+      url("../images/hero.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .callout {
+      text-align: center;
+      margin-top: 80px;
+      width: 500px;
+
+      h1 {
+        color: $white;
+      }
+
+      .l-imp {
+        color: $blue;
+        margin-bottom: 25px;
+        font-style: italic;
+        font-size: 20px;
+      }
+
+      .desc {
+        color: white;
+        margin-bottom: 20px;
+        font-style: italic;
+        font-size: 18px;
+      }
+
+      .hero-button {
+        padding: 15px 20px;
+        background-color: $blue;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-wrapper {
+    width: 100%;
+    // height: 500px;
+    background-color: $black;
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // changed the width to 100% from 1280px
+      width: 100%;
+      // height: 100%;
+      margin: 0 auto;
+      background-image: linear-gradient(
+          to right,
+          rgba($black, 0.5),
+          rgba($black, 0.5)
+        ),
+        url("../images/hero.jpg");
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .callout {
+      text-align: center;
+      margin-top: 80px;
+      width: 500px;
+
+      h1 {
+        color: $white;
+      }
+
+      .l-imp {
+        color: $blue;
+        margin-bottom: 25px;
+        font-style: italic;
+        font-size: 20px;
+      }
+
+      .desc {
+        color: white;
+        margin-bottom: 20px;
+        font-style: italic;
+        font-size: 18px;
+      }
+
+      .hero-button {
+        padding: 15px 20px;
+        background-color: $blue;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
