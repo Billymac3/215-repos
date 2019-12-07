@@ -1,0 +1,115 @@
+.canada {
+  //   background: cornflowerblue;
+  width: 80%;
+  //   height: 2000px;
+  margin: auto;
+
+  .tour-header {
+    width: 100%;
+    height: 415px;
+
+    background-image: $canadaTour;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-top: 50px;
+
+    .header-text-wrapper {
+      width: 100%;
+      height: 100%;
+      color: $white;
+
+      font-family: $roboto;
+      font-weight: 100;
+      position: relative;
+
+      .header-text {
+        position: absolute;
+        font-size: 80px;
+        top: 30px;
+        left: 40px;
+      }
+
+      .price-wrapper {
+        position: absolute;
+        font-size: 30px;
+        bottom: 5px;
+        right: 10px;
+
+        .starting-from {
+          text-transform: uppercase;
+        }
+
+        .prices-may-vary {
+          text-transform: lowercase;
+        }
+      }
+    }
+  }
+
+  //   image row
+  .gallery-container {
+    width: 100%;
+    min-height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 100px;
+
+    .gallery-base {
+      width: 300px;
+      height: 350px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 50px;
+    }
+
+    .gallery1 {
+      background-image: $canadaTour1;
+    }
+    .gallery2 {
+      background-image: $canadaTour2;
+    }
+    .gallery3 {
+      background-image: $canadaTour3;
+    }
+  }
+}
+
+//   day # 1,2,3 text
+.day-text {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 80%;
+  margin-bottom: 100px;
+
+  h1 {
+    margin-bottom: 0px;
+  }
+
+  .border {
+    border-bottom: 2px solid $black;
+    width: 150px;
+    margin-bottom: 30px;
+  }
+}
+
+.book-now {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  .round-button {
+    background-color: $blue;
+    text-decoration: none;
+    color: white;
+    padding: 15px 17px;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+}
