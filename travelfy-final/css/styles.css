@@ -219,15 +219,7 @@ h3 {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 40px; }
-    .destinations-container .destinations1 {
-      width: 100%;
-      height: 304px;
-      margin-bottom: 40px; }
-    .destinations-container .destinations2 {
-      width: 100%;
-      height: 304px;
-      margin-bottom: 40px; }
-    .destinations-container .destinations3 {
+    .destinations-container .destinations-base {
       width: 100%;
       height: 304px;
       margin-bottom: 40px; } }
@@ -632,7 +624,7 @@ h3 {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-  .tours .destinations-container {
+  .tours .tours-container {
     max-width: 818px;
     min-height: 304px;
     margin: auto;
@@ -652,59 +644,59 @@ h3 {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 100px; }
-    .tours .destinations-container .destinations-base {
+    .tours .tours-container .tours-base {
       width: 236px;
       height: 304px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       margin-top: 50px; }
-    .tours .destinations-container .destinations1 {
+    .tours .tours-container .tours1 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-01.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-01.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-01.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-01.jpg"); }
-    .tours .destinations-container .destinations2 {
+    .tours .tours-container .tours2 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-02.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-02.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-02.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-02.jpg"); }
-    .tours .destinations-container .destinations3 {
+    .tours .tours-container .tours3 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-03.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-03.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-03.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-03.jpg"); }
-    .tours .destinations-container .destinations4 {
+    .tours .tours-container .tours4 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-04.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-04.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-04.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-04.jpg"); }
-    .tours .destinations-container .destinations5 {
+    .tours .tours-container .tours5 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-05.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-05.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-05.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-05.jpg"); }
-    .tours .destinations-container .destinations6 {
+    .tours .tours-container .tours6 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-06.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-06.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-06.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-06.jpg"); }
-    .tours .destinations-container .destinations7 {
+    .tours .tours-container .tours7 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-07.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-07.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-07.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-07.jpg"); }
-    .tours .destinations-container .destinations8 {
+    .tours .tours-container .tours8 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-08.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-08.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-08.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-08.jpg"); }
-    .tours .destinations-container .destinations9 {
+    .tours .tours-container .tours9 {
       background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/tour/tour-09.jpg");
       background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-09.jpg");
       background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-09.jpg");
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tour/tour-09.jpg"); }
-    .tours .destinations-container .desText {
+    .tours .tours-container .desText {
       width: 192px;
       color: #fff;
       margin: auto;
@@ -720,47 +712,45 @@ h3 {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
-      .tours .destinations-container .desText h1 {
+      .tours .tours-container .desText h1 {
         margin-bottom: 0;
         font-size: 33px;
         text-transform: capitalize; }
-      .tours .destinations-container .desText h3 {
+      .tours .tours-container .desText h3 {
         text-transform: none;
         font-size: 25px;
         margin-bottom: 60px; }
-      .tours .destinations-container .desText .round-button {
+      .tours .tours-container .desText .round-button {
         background-color: #79addc;
         text-decoration: none;
         color: white;
         padding: 15px 17px;
         border-radius: 25px;
         text-transform: uppercase; }
-
-@media (max-width: 884px) {
-  .destinations-container {
-    max-width: 100%;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 100px; }
-    .destinations-container .destinations-base {
-      width: 236px;
-      height: 304px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      margin-top: 50px;
-      margin: auto; } }
+  @media (max-width: 914px) {
+    .tours .tours-container {
+      max-width: 80%;
+      height: 100%;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 50px; }
+      .tours .tours-container .tours-base {
+        width: 100%;
+        height: 304px;
+        margin-top: 0px;
+        margin-bottom: 50px; } }
 
 .israel {
   width: 80%;
@@ -931,6 +921,40 @@ h3 {
       background-image: url("../images/tour/tour-usa/usa-tour-02.jpg"); }
     .usa .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-usa/usa-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .usa .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .usa .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px; }
+      .usa .gallery-container .gallery1 {
+        background-image: url("../images/tour/tour-usa/usa-tour-01.jpg"); }
+      .usa .gallery-container .gallery2 {
+        background-image: url("../images/tour/tour-usa/usa-tour-02.jpg"); }
+      .usa .gallery-container .gallery3 {
+        background-image: url("../images/tour/tour-usa/usa-tour-03.jpg"); } }
 
 .day-text {
   margin: 0 auto;

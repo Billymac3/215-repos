@@ -79,6 +79,38 @@
       background-image: $usaTour3;
     }
   }
+  @media (max-width: 1155px) {
+    .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 100px;
+
+      .gallery-base {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+      }
+
+      .gallery1 {
+        background-image: $usaTour1;
+      }
+      .gallery2 {
+        background-image: $usaTour2;
+      }
+      .gallery3 {
+        background-image: $usaTour3;
+      }
+    }
+  }
 }
 
 //   day # 1,2,3 text
