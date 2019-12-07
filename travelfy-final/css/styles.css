@@ -1125,27 +1125,20 @@ h3 {
         .nz .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
     @media (max-width: 750px) {
-      .nz .tour-header .header-text-wrapper {
-        width: 100%;
-        height: 100%;
-        color: #fff;
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        position: relative; }
-        .nz .tour-header .header-text-wrapper .header-text {
-          position: absolute;
-          font-size: 45px;
-          top: 20px;
-          left: 20px; }
-        .nz .tour-header .header-text-wrapper .price-wrapper {
-          position: absolute;
-          font-size: 12px;
-          bottom: 5px;
-          right: 10px; }
-          .nz .tour-header .header-text-wrapper .price-wrapper .starting-from {
-            text-transform: uppercase; }
-          .nz .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
-            text-transform: lowercase; } }
+      .nz .tour-header .header-text-wrapper .header-text {
+        position: absolute;
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .nz .tour-header .header-text-wrapper .price-wrapper {
+        position: absolute;
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; }
+        .nz .tour-header .header-text-wrapper .price-wrapper .starting-from {
+          text-transform: uppercase; }
+        .nz .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
+          text-transform: lowercase; } }
   .nz .gallery-container {
     width: 100%;
     min-height: 350px;
