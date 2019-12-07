@@ -46,6 +46,39 @@
         }
       }
     }
+    @media (max-width: 750px) {
+      .header-text-wrapper {
+        width: 100%;
+        height: 100%;
+        color: $white;
+
+        font-family: $roboto;
+        font-weight: 100;
+        position: relative;
+
+        .header-text {
+          position: absolute;
+          font-size: 45px;
+          top: 30px;
+          left: 40px;
+        }
+
+        .price-wrapper {
+          position: absolute;
+          font-size: 15px;
+          bottom: 5px;
+          right: 10px;
+
+          .starting-from {
+            text-transform: uppercase;
+          }
+
+          .prices-may-vary {
+            text-transform: lowercase;
+          }
+        }
+      }
+    }
   }
 
   //   image row
