@@ -46,6 +46,21 @@
         }
       }
     }
+    @media (max-width: 750px) {
+      .header-text-wrapper {
+        .header-text {
+          font-size: 40px;
+          top: 20px;
+          left: 20px;
+        }
+
+        .price-wrapper {
+          font-size: 12px;
+          bottom: 5px;
+          right: 10px;
+        }
+      }
+    }
   }
 
   //   image row
@@ -94,20 +109,7 @@
       .gallery-base {
         width: 100%;
         height: 250px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         margin-top: 50px;
-      }
-
-      .gallery1 {
-        background-image: $usaTour1;
-      }
-      .gallery2 {
-        background-image: $usaTour2;
-      }
-      .gallery3 {
-        background-image: $usaTour3;
       }
     }
   }

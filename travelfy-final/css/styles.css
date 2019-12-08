@@ -787,6 +787,15 @@ h3 {
           text-transform: uppercase; }
         .israel .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .israel .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .israel .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .israel .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -820,6 +829,31 @@ h3 {
       background-image: url("../images/tour/tour-israel/israel-tour-02.jpg"); }
     .israel .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-israel/israel-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .israel .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .israel .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -888,6 +922,15 @@ h3 {
           text-transform: uppercase; }
         .usa .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .usa .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .usa .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .usa .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -945,16 +988,7 @@ h3 {
       .usa .gallery-container .gallery-base {
         width: 100%;
         height: 250px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 50px; }
-      .usa .gallery-container .gallery1 {
-        background-image: url("../images/tour/tour-usa/usa-tour-01.jpg"); }
-      .usa .gallery-container .gallery2 {
-        background-image: url("../images/tour/tour-usa/usa-tour-02.jpg"); }
-      .usa .gallery-container .gallery3 {
-        background-image: url("../images/tour/tour-usa/usa-tour-03.jpg"); } }
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1023,6 +1057,15 @@ h3 {
           text-transform: uppercase; }
         .aus .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .aus .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .aus .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .aus .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -1056,6 +1099,31 @@ h3 {
       background-image: url("../images/tour/tour-aus/aus-tour-02.jpg"); }
     .aus .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-aus/aus-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .aus .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .aus .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1126,19 +1194,13 @@ h3 {
           text-transform: lowercase; }
     @media (max-width: 750px) {
       .nz .tour-header .header-text-wrapper .header-text {
-        position: absolute;
         font-size: 40px;
         top: 20px;
         left: 20px; }
       .nz .tour-header .header-text-wrapper .price-wrapper {
-        position: absolute;
         font-size: 12px;
         bottom: 5px;
-        right: 10px; }
-        .nz .tour-header .header-text-wrapper .price-wrapper .starting-from {
-          text-transform: uppercase; }
-        .nz .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
-          text-transform: lowercase; } }
+        right: 10px; } }
   .nz .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -1172,6 +1234,31 @@ h3 {
       background-image: url("../images/tour/tour-nz/nz-tour-02.jpg"); }
     .nz .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-nz/nz-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .nz .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .nz .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1240,6 +1327,15 @@ h3 {
           text-transform: uppercase; }
         .france .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .france .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .france .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .france .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -1273,6 +1369,31 @@ h3 {
       background-image: url("../images/tour/tour-france/france-tour-02.jpg"); }
     .france .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-france/france-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .france .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .france .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1341,6 +1462,15 @@ h3 {
           text-transform: uppercase; }
         .egypt .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .egypt .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .egypt .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .egypt .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -1374,6 +1504,31 @@ h3 {
       background-image: url("../images/tour/tour-egypt/egypt-tour-02.jpg"); }
     .egypt .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-egypt/egypt-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .egypt .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .egypt .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1442,6 +1597,15 @@ h3 {
           text-transform: uppercase; }
         .japan .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .japan .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .japan .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .japan .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -1475,6 +1639,31 @@ h3 {
       background-image: url("../images/tour/tour-japan/japan-tour-02.jpg"); }
     .japan .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-japan/japan-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .japan .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .japan .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1543,6 +1732,15 @@ h3 {
           text-transform: uppercase; }
         .canada .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .canada .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .canada .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .canada .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -1576,6 +1774,31 @@ h3 {
       background-image: url("../images/tour/tour-canada/canada-tour-02.jpg"); }
     .canada .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-canada/canada-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .canada .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .canada .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1644,6 +1867,15 @@ h3 {
           text-transform: uppercase; }
         .uae .tour-header .header-text-wrapper .price-wrapper .prices-may-vary {
           text-transform: lowercase; }
+    @media (max-width: 750px) {
+      .uae .tour-header .header-text-wrapper .header-text {
+        font-size: 40px;
+        top: 20px;
+        left: 20px; }
+      .uae .tour-header .header-text-wrapper .price-wrapper {
+        font-size: 12px;
+        bottom: 5px;
+        right: 10px; } }
   .uae .gallery-container {
     width: 100%;
     min-height: 350px;
@@ -1677,6 +1909,31 @@ h3 {
       background-image: url("../images/tour/tour-uae/uae-tour-02.jpg"); }
     .uae .gallery-container .gallery3 {
       background-image: url("../images/tour/tour-uae/uae-tour-03.jpg"); }
+  @media (max-width: 1155px) {
+    .uae .gallery-container {
+      width: 100%;
+      min-height: 350px;
+      margin: auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 100px; }
+      .uae .gallery-container .gallery-base {
+        width: 100%;
+        height: 250px;
+        margin-top: 50px; } }
 
 .day-text {
   margin: 0 auto;
@@ -1709,6 +1966,180 @@ h3 {
     padding: 15px 17px;
     border-radius: 25px;
     text-transform: uppercase; }
+
+.title {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  margin-bottom: 35px; }
+  .title h2 {
+    margin-bottom: 0px;
+    font-size: 30px; }
+  .title .border {
+    border-bottom: 2px solid #000;
+    width: 170px;
+    margin-bottom: 30px; }
+
+.special-offers {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .special-offers .special-offer-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 30px; }
+  @media (max-width: 775px) {
+    .special-offers .special-offer-img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 600px;
+      height: 300px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-right: 30px;
+      margin-bottom: 20px; } }
+  .special-offers .barcelona-img {
+    background-image: url("../images/special-offer-01.jpg"); }
+  .special-offers .bangkok-img {
+    background-image: url("../images/special-offer-02.jpg"); }
+  .special-offers .text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 300px;
+    position: relative; }
+    .special-offers .text-wrapper h2 {
+      margin-bottom: 0px;
+      font-size: 30px; }
+      .special-offers .text-wrapper h2 .discount {
+        color: #ff7d38;
+        font-size: 20px; }
+    .special-offers .text-wrapper .border {
+      border-bottom: 2px solid #000;
+      width: 170px;
+      margin-bottom: 30px; }
+    .special-offers .text-wrapper p {
+      width: 300px; }
+    .special-offers .text-wrapper .learn-more {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 100px; }
+      .special-offers .text-wrapper .learn-more .round-button {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #79addc;
+        text-decoration: none;
+        color: white;
+        padding: 15px 17px;
+        border-radius: 25px;
+        text-transform: uppercase; }
+  @media (max-width: 775px) {
+    .special-offers .text-wrapper {
+      width: 100%; }
+      .special-offers .text-wrapper .learn-more {
+        margin: auto; }
+        .special-offers .text-wrapper .learn-more .round-button {
+          position: unset; } }
+
+.title {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  margin-bottom: 35px; }
+  .title h2 {
+    margin-bottom: 0px;
+    font-size: 30px; }
+  .title .border {
+    border-bottom: 2px solid #000;
+    width: 90px;
+    margin-bottom: 30px; }
+
+.blog {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .blog .date-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #79addc;
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    color: #fff; }
+    .blog .date-box .day {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 0; }
+    .blog .date-box .month {
+      font-size: 12px;
+      font-weight: 100;
+      text-transform: uppercase;
+      margin-bottom: 0; }
+  .blog .blog-container {
+    width: 90%;
+    margin-left: 30px; }
+    .blog .blog-container .blog-img {
+      width: 100%;
+      height: 300px;
+      background-image: url("../images/blog.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-bottom: 20px; }
+    .blog .blog-container .blog-text .blog-title {
+      font-size: 15px; }
+    .blog .blog-container .blog-text .blog-desc {
+      max-width: 400px;
+      color: #79addc;
+      font-size: 13px; }
 
 footer {
   width: 100%;
