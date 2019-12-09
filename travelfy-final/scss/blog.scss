@@ -60,6 +60,17 @@
       background-repeat: no-repeat;
       margin-bottom: 20px;
     }
+
+    @media (max-width: 1000px) {
+      .blog-img {
+        height: 200px;
+      }
+    }
+    @media (max-width: 600px) {
+      .blog-img {
+        height: 150px;
+      }
+    }
     .blog-text {
       .blog-title {
         font-size: 15px;

@@ -2137,6 +2137,12 @@ h3 {
       background-size: cover;
       background-repeat: no-repeat;
       margin-bottom: 20px; }
+    @media (max-width: 1000px) {
+      .blog .blog-container .blog-img {
+        height: 200px; } }
+    @media (max-width: 600px) {
+      .blog .blog-container .blog-img {
+        height: 150px; } }
     .blog .blog-container .blog-text .blog-title {
       font-size: 15px; }
     .blog .blog-container .blog-text .blog-desc {
