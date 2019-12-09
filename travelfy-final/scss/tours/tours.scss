@@ -1,6 +1,5 @@
 .tours {
   width: 80%;
-  //   width: 980px;
   margin: auto;
 
   .tour-header {
@@ -27,7 +26,6 @@
       font-family: $roboto;
       text-transform: uppercase;
       font-weight: 100;
-      //   text-align: center;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -108,8 +106,6 @@
         margin-bottom: 60px;
       }
       .round-button {
-        //   width: 133px;
-        //   height: 40px;
         background-color: $blue;
         text-decoration: none;
         color: white;
@@ -127,9 +123,7 @@
       display: flex;
       justify-content: space-between;
       flex-direction: column;
-      // flex-wrap: wrap;
       align-items: center;
-      //   margin-bottom: 40px;
       margin-top: 50px;
 
       .tours-base {
@@ -141,6 +135,3 @@
     }
   }
 }
-
-// @media (max-width: 737px) {
-// }

@@ -19,7 +19,7 @@
   margin: 0 auto;
   margin-top: 100px;
   width: 80%;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 
   h2 {
     margin-bottom: 0px;
@@ -59,50 +59,43 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 775px) {
   .client-quotes {
-    margin: 0 auto;
-    margin-top: 100px;
-    width: 80%;
-    margin-bottom: 200px;
-    display: flex;
-    flex-wrap: wrap;
-
+    margin-bottom: 120px;
     h2 {
-      margin-bottom: 0px;
     }
 
     .border {
-      border-bottom: 2px solid $black;
-      width: 220px;
-      margin-bottom: 30px;
     }
 
     .client-quote-wrapper {
-      width: 670px;
-      height: 150px;
+      width: 100%;
+      height: auto;
       display: flex;
       margin-bottom: 40px;
-      position: relative;
+      position: unset;
+      flex-direction: column;
 
       .client-imgs {
-        width: 90%;
+        width: 100%;
         height: auto;
-        // height: 150px;
       }
 
       .quote {
-        width: 350px;
-        margin-left: 20px;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
       }
 
       .client-name {
         color: $blue;
         font-family: $roboto;
         font-weight: 100;
-        bottom: 0;
-        right: 0;
-        position: absolute;
+        margin-top: 15px;
+        bottom: unset;
+        right: unset;
+        position: unset;
+        // margin-bottom: 15px;
       }
     }
   }

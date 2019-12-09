@@ -525,7 +525,7 @@ h3 {
   margin: 0 auto;
   margin-top: 100px;
   width: 80%;
-  margin-bottom: 200px; }
+  margin-bottom: 180px; }
   .client-quotes h2 {
     margin-bottom: 0px; }
   .client-quotes .border {
@@ -554,44 +554,36 @@ h3 {
       right: 0;
       position: absolute; }
 
-@media (max-width: 500px) {
+@media (max-width: 775px) {
   .client-quotes {
-    margin: 0 auto;
-    margin-top: 100px;
-    width: 80%;
-    margin-bottom: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    .client-quotes h2 {
-      margin-bottom: 0px; }
-    .client-quotes .border {
-      border-bottom: 2px solid #000;
-      width: 220px;
-      margin-bottom: 30px; }
+    margin-bottom: 120px; }
     .client-quotes .client-quote-wrapper {
-      width: 670px;
-      height: 150px;
+      width: 100%;
+      height: auto;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin-bottom: 40px;
-      position: relative; }
+      position: unset;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
       .client-quotes .client-quote-wrapper .client-imgs {
-        width: 90%;
+        width: 100%;
         height: auto; }
       .client-quotes .client-quote-wrapper .quote {
-        width: 350px;
-        margin-left: 20px; }
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px; }
       .client-quotes .client-quote-wrapper .client-name {
         color: #79addc;
         font-family: "Roboto", sans-serif;
         font-weight: 100;
-        bottom: 0;
-        right: 0;
-        position: absolute; } }
+        margin-top: 15px;
+        bottom: unset;
+        right: unset;
+        position: unset; } }
 
 .tours {
   width: 80%;
@@ -2266,8 +2258,7 @@ h3 {
         height: 300px;
         font-size: 18px;
         font-weight: 100;
-        margin-left: 60px;
-        background-color: powderblue; } }
+        margin-left: 60px; } }
 
 @media (max-width: 865px) {
   .contact {
