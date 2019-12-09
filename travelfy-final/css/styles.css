@@ -70,11 +70,6 @@ h3 {
       width: 500px; }
       .hero-wrapper .hero .callout h1 {
         color: #fff; }
-      .hero-wrapper .hero .callout .l-imp {
-        color: #79addc;
-        margin-bottom: 25px;
-        font-style: italic;
-        font-size: 20px; }
       .hero-wrapper .hero .callout .desc {
         color: white;
         margin-bottom: 20px;
@@ -110,27 +105,64 @@ h3 {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
-    .hero-wrapper .callout {
-      text-align: center;
-      margin-top: 80px;
-      width: 500px; }
-      .hero-wrapper .callout h1 {
-        color: #fff; }
-      .hero-wrapper .callout .l-imp {
-        color: #79addc;
-        margin-bottom: 25px;
-        font-style: italic;
-        font-size: 20px; }
-      .hero-wrapper .callout .desc {
-        color: white;
-        margin-bottom: 20px;
-        font-style: italic;
-        font-size: 18px; }
-      .hero-wrapper .callout .hero-button {
-        padding: 15px 20px;
-        background-color: #79addc;
-        color: white;
-        text-decoration: none; } }
+      .hero-wrapper .hero .callout {
+        text-align: center;
+        margin-top: 80px;
+        width: 500px; }
+        .hero-wrapper .hero .callout h1 {
+          color: #fff; }
+        .hero-wrapper .hero .callout .desc {
+          color: white;
+          margin-bottom: 20px;
+          font-style: italic;
+          font-size: 18px; }
+        .hero-wrapper .hero .callout .hero-button {
+          padding: 15px 20px;
+          background-color: #79addc;
+          color: white;
+          text-decoration: none; } }
+
+@media (max-width: 500px) {
+  .hero-wrapper {
+    width: 100%;
+    background-color: #000; }
+    .hero-wrapper .hero {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/hero.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .hero-wrapper .hero .callout {
+        text-align: center;
+        margin-top: 80px;
+        width: 300px; }
+        .hero-wrapper .hero .callout h1 {
+          color: #fff;
+          font-size: 40px; }
+        .hero-wrapper .hero .callout .desc {
+          color: white;
+          margin-bottom: 30px;
+          font-style: italic;
+          font-size: 14px; }
+        .hero-wrapper .hero .callout .hero-button {
+          padding: 15px 20px;
+          background-color: #79addc;
+          color: white;
+          text-decoration: none; } }
 
 .destinations-container {
   max-width: 818px;
